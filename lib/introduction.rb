@@ -1,4 +1,3 @@
-def introduction (name)
+def introduction (Josh)
   puts "Hi, name is # {name}."
 end
-name = Josh
