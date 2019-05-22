@@ -1,7 +1,10 @@
-def introduction ("Josh")
-  puts "Hi, my name is #{name}.\n"
+name = "Josh"
+def introduction (name)
+  puts "Hi, my name is #{name}."
 end
 
-def introduction ("Dan", "Ember.js")
-  puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
+name = "Dan"
+language = "Ember.js"
+def introduction (name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
