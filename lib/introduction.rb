@@ -1,10 +1,8 @@
-name = "Josh"
-def introduction (name)
+
+def introduction ("Josh")
   puts "Hi, my name is #{name}."
 end
 
-name = "Dan"
-language = "Ember.js"
-def introduction (name, language)
+def introduction ("Dan", "Ember.js")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
